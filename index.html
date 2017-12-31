@@ -16,33 +16,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
     <script src="app.js"></script>
-    <title>brandooted</title>
+    <title>Brandooted</title>
 </head>
 <!--Main controller-->
 
 <body ng-controller="mainController">
     <!--Nav bar-->
     <nav class="navbar navbar-toggleable-md bg-dark navbar-dark">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navStuff"
+            aria-controls="navStuff" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#/!">Site Name</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#/!">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#!basic">Basic Info</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#!portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#!projects">Current Projects</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#/!">Brandooted</a>
+            <div class="collapse navbar-collapse" id="navbarStuff">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/!">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!basic">Basic Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!projects">Current Projects</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!--Main content-->
