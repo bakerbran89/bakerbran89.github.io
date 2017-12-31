@@ -24,7 +24,7 @@ appApp.config(function($routeProvider){
         .otherwise('/error',{
             templateUrl:'content/error.html', 
             controller:'errorController'
-        })
+        });
 });
 
 //app controllers REDO!!!!!
