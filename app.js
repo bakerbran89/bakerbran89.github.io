@@ -48,5 +48,5 @@ appApp.controller('projectsController', function($scope){
 });
 
 appApp.controller('errorController', function($scope){
-    $scope.message = 'The fuck you trying to do?  You know this link is not an option.';
+    $scope.message = 'This link is not an option.';
 });
