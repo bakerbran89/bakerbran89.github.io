@@ -21,9 +21,12 @@ appApp.config(function($routeProvider){
             templateUrl:'content/projects.html', 
             controller:'projectsController'
         })
-        .otherwise('/error',{
+        .when('/error',{
             templateUrl:'content/error.html', 
             controller:'errorController'
+        })
+        .otherwise({
+            redirectTo: '/error'
         });
 });
 
