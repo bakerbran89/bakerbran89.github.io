@@ -22,7 +22,7 @@ appApp.config(function($routeProvider){
             controller:'projectsController'
         })
         .otherwise('/error',{
-            content:'<h1>404 Error!</h1> <p>This page does not exist.</p>'
+            template:'<h1>404 Error!</h1> <p>This page does not exist.</p>'
         });
 });
 
