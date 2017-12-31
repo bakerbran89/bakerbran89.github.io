@@ -6,7 +6,7 @@ var appApp = angular.module('appApp', ['ngRoute']);
 appApp.config(function($routeProvider){
     $routeProvider
         .when('/',{
-            templateUrl:'home.html', 
+            templateUrl:'content/home.html', 
             controller:'mainController'
         })
         .when('/basic',{
