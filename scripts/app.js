@@ -50,3 +50,10 @@ appApp.controller('projectsController', function($scope){
 appApp.controller('errorController', function($scope){
     $scope.message = 'This link is not an option.';
 });
+
+//JQuery Stuff
+$(document).ready(function () {
+    $('body').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+});
