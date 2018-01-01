@@ -32,21 +32,21 @@ appApp.config(function($routeProvider){
 
 //app controllers REDO!!!!!
 appApp.controller('mainController', function($scope){
-    $scope.message = 'Home page content goes here!';
+    $scope.message = 'Home page content will go here.';
 });
 
 appApp.controller('basicController', function($scope){
-    $scope.message = 'My basic info goes here.  Should I pretend I\'m cool?';
+    $scope.message = 'My basic information will go here.';
 });
 
 appApp.controller('portfolioController', function($scope){
-    $scope.message = 'Heh, the content for this topic will take a while.';
+    $scope.message = 'All I have at the moment are learning projects.  You can check them out on my github.';
 });
 
 appApp.controller('projectsController', function($scope){
-    $scope.message = 'I am currently working on this SPA, right now, as I type this out.';
+    $scope.message = 'I want to consolidate this website down to one html file, one js file, and maybe a css file.';
 });
 
 appApp.controller('errorController', function($scope){
-    $scope.message = 'This link is not an option.';
+    $scope.message = 'This page cannot be found.';
 });
