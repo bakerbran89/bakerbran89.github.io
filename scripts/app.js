@@ -1,8 +1,8 @@
 //create module to be referenced in html
-//include ngRoute
+//include custom module, [angular module: ngRoute]
 var appApp = angular.module('appApp', ['ngRoute']);
 
-//configure routes
+//configure routes to specified template and controller
 appApp.config(function($routeProvider){
     $routeProvider
         .when('/',{
@@ -30,21 +30,21 @@ appApp.config(function($routeProvider){
         });
 });
 
-//app controllers for each page.  just contains a message for now
+//controllers for each page associated with above routes.  just contains a message for now
 appApp.controller('mainController', function($scope){
-    $scope.message = 'Home page content will go here.';
+    $scope.message = 'Welcome to my website!  My name is Brandon and I am an Earthican.\nThis website is intended to be my personal website, and also a template for a minimal Single Page Application (SPA).\nFeel free to clone the repository for this website and make it your own.\nThis website was thrown together using AngularJS, Bootstrap, and basic WebDev practices.';
 });
 
 appApp.controller('basicController', function($scope){
-    $scope.message = 'My basic information will go here.';
+    $scope.message = 'My name is Brandon.  I like to camp, star gaze, play video games, smoke weed, and learn about computers.';
 });
 
 appApp.controller('portfolioController', function($scope){
-    $scope.message = 'All I have at the moment are learning projects.  You can check them out on GitHub, u/n bakerbran89.';
+    $scope.message = 'All I have at the moment are learning projects and this website.  You can check them out on GitHub, u/n bakerbran89.';
 });
 
 appApp.controller('projectsController', function($scope){
-    $scope.message = 'I want to consolidate this website down to one html file, one js file, and maybe a css file.';
+    $scope.message = 'So far, my projects include: developing successful personal/interpersonal traits, completing formal training in cybersecurity, and playing around with WebDev UI/UX.';
 });
 
 appApp.controller('errorController', function($scope){
