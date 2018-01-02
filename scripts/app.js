@@ -32,7 +32,7 @@ appApp.config(function($routeProvider){
 
 //controllers for each page associated with above routes.  just contains a message for now
 appApp.controller('mainController', function($scope){
-    $scope.message = 'Welcome to my website!  My name is Brandon and I am an Earthican.\nThis website is intended to be my personal website, and also a template for a minimal Single Page Application (SPA).\nFeel free to clone the repository for this website and make it your own.\nThis website was thrown together using AngularJS, Bootstrap, and basic WebDev practices.';
+    $scope.message = 'Hello fellow Earthicans.\nThis website is intended to be my personal website, and also a template for a minimal Single Page Application (SPA).\nFeel free to clone the repository for this website and make it your own.\nThis website was thrown together using AngularJS, Bootstrap, and basic WebDev practices.';
 });
 
 appApp.controller('basicController', function($scope){
