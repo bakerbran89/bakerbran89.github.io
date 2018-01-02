@@ -30,7 +30,7 @@ appApp.config(function($routeProvider){
         });
 });
 
-//app controllers REDO!!!!!
+//app controllers for each page.  just contains a message for now
 appApp.controller('mainController', function($scope){
     $scope.message = 'Home page content will go here.';
 });
