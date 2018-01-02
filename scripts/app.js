@@ -40,7 +40,7 @@ appApp.controller('basicController', function($scope){
 });
 
 appApp.controller('portfolioController', function($scope){
-    $scope.message = 'All I have at the moment are learning projects.  You can check them out on my github.';
+    $scope.message = 'All I have at the moment are learning projects.  You can check them out on GitHub, u/n bakerbran89.';
 });
 
 appApp.controller('projectsController', function($scope){
