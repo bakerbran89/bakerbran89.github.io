@@ -44,7 +44,7 @@ appApp.controller('portfolioController', function($scope){
 });
 
 appApp.controller('projectsController', function($scope){
-    $scope.message = 'So far, my projects include: developing successful personal/interpersonal traits, completing formal training in cybersecurity, and playing around with WebDev UI/UX.';
+    $scope.message = 'My current projects include developing successful personal/interpersonal traits, completing formal training in cybersecurity, and playing around with WebDev UI/UX.';
 });
 
 appApp.controller('errorController', function($scope){
