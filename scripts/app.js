@@ -36,7 +36,7 @@ appApp.controller('mainController', function($scope){
 });
 
 appApp.controller('basicController', function($scope){
-    $scope.message = 'My name is Brandon.  I like to camp, star gaze, play video games, smoke weed, and learn about computers.';
+    $scope.message = 'My name is Brandon.  I like to camp, star gaze, play video games, and learn about computers.';
 });
 
 appApp.controller('portfolioController', function($scope){
