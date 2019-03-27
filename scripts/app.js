@@ -32,11 +32,11 @@ appApp.config(function($routeProvider){
 
 //controllers for each page associated with above routes.  just contains a message for now
 appApp.controller('mainController', function($scope){
-    $scope.message = 'Hello fellow Earthicans.  This website is intended to be my personal website, and also a template for a minimal Single Page Application (SPA).  Feel free to clone the repository for this website and make it your own.  This website was thrown together using AngularJS, Bootstrap, and basic WebDev practices.';
+    $scope.message = 'Welcome to my projects website.  This site is currently under construction.  I will be updating this website with various learning tutorials.';
 });
 
 appApp.controller('basicController', function($scope){
-    $scope.message = 'My name is Brandon.  I like to camp, star gaze, play video games, and learn about computers.';
+    $scope.message = 'My name is Brandon.  I like to camp, star gaze, play video games, and learn about computers.  I am a soon to be graduate in the exciting field of cybersecurity.  I will be working on this website as I transition from student to working professional.  I have learned a lot of important information through my cybersecurity coursework and would like to share my knowledge with others.  I look forward to building this website and hopefully inspiring others to learn something new.';
 });
 
 appApp.controller('portfolioController', function($scope){
