@@ -46,7 +46,7 @@ appApp.controller('portfolioController', function($scope){
 });
 
 appApp.controller('projectsController', function($scope){
-    $scope.message = 'My current projects are based around learning.  I am trying to build a foundation in malware analysis, penetration testing, and web development.  I will be adding tutorials to this section.';
+    $scope.message = 'My current projects are based around learning.  I am trying to build a foundation in malware analysis, penetration testing, and web development.  Tutorials will be added to this section.';
 });
 
 appApp.controller('errorController', function($scope){
