@@ -38,15 +38,15 @@ appApp.controller('mainController', function($scope){
 });
 
 appApp.controller('basicController', function($scope){
-    $scope.message = 'My name is Brandon.  I like to learn about computers.  I am a soon to be graduate in the exciting field of cybersecurity.  I will be working on this website as I transition from student to working professional.  I have learned a lot of important information through my cybersecurity coursework and would like to share my knowledge with others.  I look forward to building this website and hopefully inspiring others to learn something new.';
+    $scope.message = 'My name is Brandon.  I like to learn about computers.  I am a soon to be graduate in the exciting field of Cybersecurity.  I will be working on this website as I transition from student to working professional.  I look forward to building this website and hopefully inspiring others to learn something new.';
 });
 
 appApp.controller('portfolioController', function($scope){
-    $scope.message = 'This will be updated soon.  I might make it a resume page until I have some projects that I have designed myself.  Until then, assume that I am old and in the way.';
+    $scope.message = 'This will be updated soon.  I might make it a resume page until I have some projects that I have designed myself.';
 });
 
 appApp.controller('projectsController', function($scope){
-    $scope.message = 'My current projects are based around learning.  I am trying to build a foundation in malware analysis, penetration testing, and apparently web development.  I will be adding tutorials to this section.';
+    $scope.message = 'My current projects are based around learning.  I am trying to build a foundation in malware analysis, penetration testing, and web development.  I will be adding tutorials to this section.';
 });
 
 appApp.controller('errorController', function($scope){
